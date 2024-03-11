@@ -7,6 +7,7 @@ header {
     background-color:antiquewhite;
     text-align: center;
     padding: 1em;
+    margin: 5px;
     font-size: xx-large;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -14,6 +15,7 @@ header {
 nav {
 text-align: center;
 padding: 5px;
+margin: 5px;
 background-color: pink;
 }
 
@@ -35,7 +37,15 @@ input {
     padding: 5px;
     margin: 1px;
 }
-
+section {
+    background-color: rgb(254, 226, 226);
+    color: rgb(103, 11, 83);
+    width: 15cm;
+    padding: 10px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
 footer {
     text-align: center;
 }
