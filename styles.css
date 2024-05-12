@@ -4,10 +4,10 @@ body {
 
 header {
     color: rgb(103, 11, 83);
-    background-color:antiquewhite;
+    background-color:rgb(248, 234, 236);
     text-align: center;
-    padding: 1em;
-    margin: 2px;
+    padding: 5px;
+    margin: 3px;
     font-size: xx-large;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -15,9 +15,9 @@ header {
 
 nav {
 text-align: center;
-padding: 5px;
-margin: 5px;
-background-color: pink;
+padding: 4px;
+margin: 3px;
+background-color: rgb(252, 212, 218);
 }
 
 
@@ -59,7 +59,19 @@ footer {
 .search_bar input[type="text"] {
     border: none; 
     outline: none;
+    margin: 3px;
+    padding: 2px;
 
 }
 
+.carousel-caption {
+    color: rgb(155, 114, 146);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200px;
+    text-align: center;
+    
+ }
 
+ .carousel-item img {
+    opacity: 0.5;
+}
