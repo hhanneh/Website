@@ -94,7 +94,7 @@ footer {
   }
   
   .search-container button:hover {
-    background-color: rgb(252, 133, 153);
+    background-color:rgb(252, 166, 181) ;
   }
 
   .vertical-nav {
@@ -112,6 +112,6 @@ footer {
   }
   
   .vertical-nav a:hover {
-    background-color:rgb(252, 133, 153) ;
+    background-color:rgb(252, 166, 181) ;
   }
   
