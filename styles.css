@@ -44,8 +44,7 @@ input {
 section {
     background-color:rgb(252, 212, 218) ;
     color: rgb(103, 11, 83);
-    width: 17cm;
-    padding: 10px;
+    padding: 20px;
     margin: 3px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
@@ -140,4 +139,27 @@ footer {
   
   .reviewfontsize {
     font-size: xx-large;
+  }
+
+  .reviewpage {
+    text-align: center;
+    margin: 3;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(103, 11, 83);
+  }
+
+  .userreviews {
+    margin: 3px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(103, 11, 83);
+
+  }
+  .homepagetitle {
+    text-align: center;
+    margin: 3px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(103, 11, 83);
   }
