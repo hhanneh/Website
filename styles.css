@@ -114,15 +114,6 @@ footer {
   .vertical-nav a:hover {
     background-color:rgb(252, 166, 181) ;
   }
-
-  .title {
-   padding: 10px;
-   margin: 5px;
-   text-align: center;
-   color: rgb(103, 11, 83);
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
-  }
   
   .container {
     display: flex;
@@ -130,4 +121,23 @@ footer {
     padding: 0;
     border: 0;
     margin-top: 3px;
+  }
+
+  .rating {
+    color: pink;
+  }
+  
+  .rating .star::before {
+    content: "\2605"; /* Unicode-tähti */
+  }
+  .productreview {
+    margin: 3px;
+    padding: 10px;
+    color: rgb(103, 11, 83);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  }
+  
+  .reviewfontsize {
+    font-size: xx-large;
   }
