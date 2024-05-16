@@ -42,7 +42,7 @@ input {
     margin: 1px;
 }
 section {
-    background-color:rgb(252, 212, 218) ;
+    background-color:rgb(249, 222, 226) ;
     color: rgb(103, 11, 83);
     padding: 20px;
     margin: 3px;
@@ -151,7 +151,8 @@ footer {
 
   .userreviews {
     margin: 3px;
-    padding: 5px;
+    padding: 10px;
+    padding-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(103, 11, 83);
 
@@ -162,4 +163,69 @@ footer {
     padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(103, 11, 83);
+  }
+
+  .review-form {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding: 40px;
+    padding-bottom: 55px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .review-form h2 {
+    text-align: center;
+  }
+  
+  .review-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .review-form input[type="text"],
+  .review-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .rating {
+    margin-bottom: 10px;
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    display: inline-block;
+    cursor: pointer;
+    color: #ddd;
+    font-size: 25px;
+  }
+  
+  .rating label:hover,
+  .rating label:hover ~ label,
+  .rating input[type="radio"]:checked ~ label {
+    color: pink;
+  }
+  
+  .rating label::before {
+    content: "\2605";
+  }
+  
+  .review-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: pink;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
