@@ -127,7 +127,7 @@ footer {
   }
   
   .rating .star::before {
-    content: "\2605"; /* Unicode-tähti */
+    content: "\2605";
   }
   .productreview {
     margin: 3px;
